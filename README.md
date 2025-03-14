@@ -25,6 +25,15 @@ This project is a **FastAPI-based RESTful API** for managing products using **My
 
 ## Installation & Setup
 
+It is recommended to create a virtual environment before installing dependencies to keep the project isolated.  
+
+### For Windows  
+python -m venv venv
+venv\Scripts\activate
+
+### For Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+
 ###  Install Dependencies
-```sh
 pip install -r requirements.txt
